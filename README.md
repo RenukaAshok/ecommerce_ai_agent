@@ -5,12 +5,15 @@ This is a conversational AI assistant built using **FastAPI**, **Gemini 1.5 Flas
 
 ## 💡 Features
 
-- Conversational interface using **Gemini API**
-- Converts natural language questions to SQL
-- Executes SQL queries on an **ecommerce.db** SQLite database
-- FastAPI web interface for interaction
-- Optional: Streamlit terminal chat interface
-- Bonus: Can be extended to visualize results (e.g., for total sales, CPC, RoAS)
+## 📂 Project Structure
+
+- `db.py` → Converts CSV files into a SQLite database (`ecommerce.db`)
+- `ask_with_gemini.py` → FastAPI-based chatbot using Gemini + SQL
+- `terminal_chat.py` → Terminal interface for asking questions
+- `ecommerce_ui.py` → Streamlit chatbot with better UI
+- 'ask_with_gemini.py'→ FastAPI web interface for asking questions
+- `ecommerce.db` → Auto-generated SQLite database
+- CSV files → Your input data files for ad_sales, total_sales, and eligibility
 
 ---
 
@@ -43,10 +46,3 @@ This project uses an SQLite database (`ecommerce.db`) with three tables:
 
 ---
 
-## 🚀 Getting Started
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/RenukaAshok/ecommerce_ai_agent.git
-cd ecommerce_ai_agent
