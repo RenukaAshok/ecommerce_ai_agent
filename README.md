@@ -11,7 +11,7 @@ This is a conversational AI assistant built using **FastAPI**, **Gemini 1.5 Flas
 - `ask_with_gemini.py` → FastAPI-based chatbot using Gemini + SQL
 - `terminal_chat.py` → Terminal interface for asking questions
 - `ecommerce_ui.py` → Streamlit chatbot with better UI
-- 'ask_with_gemini.py'→ FastAPI web interface for asking questions
+- `ask_with_gemini.py`→ FastAPI web interface for asking questions
 - `ecommerce.db` → Auto-generated SQLite database
 - CSV files → Your input data files for ad_sales, total_sales, and eligibility
 
